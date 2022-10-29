@@ -126,7 +126,7 @@ public class TestCases {
 
 		argentina.presentarBatalla(sanLorenzo);
 		
-		Integer valorEsperado = 4;
+		Integer valorEsperado = 3;
 		Integer valorObtenido = argentina.cantidadDeConvoyParaLaBatalla();
 		
 		assertEquals(valorEsperado, valorObtenido);

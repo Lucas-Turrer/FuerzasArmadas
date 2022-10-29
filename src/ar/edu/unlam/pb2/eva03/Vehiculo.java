@@ -20,8 +20,8 @@ public class Vehiculo {
 			return true;
 		if (obj == null)
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		/*if (getClass() != obj.getClass())
+			return false;*/
 		Vehiculo other = (Vehiculo) obj;
 		return Objects.equals(codigoIdentificador, other.codigoIdentificador);
 	}
